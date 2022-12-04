@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.font-sans {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.vue__time-picker {
+    @apply w-full;
+}
+
+.vue__time-picker input.vue__time-picker-input {
+    @apply rounded-xl py-[1.3rem] px-5 w-full;
+}
